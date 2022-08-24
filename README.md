@@ -128,6 +128,8 @@ All this process can be done using [Groth16 protocol](https://eprint.iacr.org/20
 
 ### Library usage
 
+Install `go get -u github.com/117503445/go-snark-study`
+
 Example:
 ```go
 // compile circuit and get the R1CS
