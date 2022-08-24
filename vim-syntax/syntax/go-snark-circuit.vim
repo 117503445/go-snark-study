@@ -1,6 +1,6 @@
 " Vim syntax file
 " Language:	go-snark-circuit
-" URL:		https://github.com/arnaucube/go-snark/blob/master/vim-syntax/syntax/go-snark-circuit.vim
+" URL:		https://github.com/117503445/go-snark/blob/master/vim-syntax/syntax/go-snark-circuit.vim
 
 if !exists("main_syntax")
   " quit when a syntax file was already loaded

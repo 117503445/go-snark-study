@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	"github.com/arnaucube/go-snark-study/groth16"
-	"github.com/arnaucube/go-snark-study/utils"
+	"github.com/117503445/go-snark-study/groth16"
+	"github.com/117503445/go-snark-study/utils"
 )
 
 type CircomProof struct {

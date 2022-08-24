@@ -7,10 +7,10 @@ import (
 	"math/big"
 	"os"
 
-	"github.com/arnaucube/go-snark-study/bn128"
-	"github.com/arnaucube/go-snark-study/circuitcompiler"
-	"github.com/arnaucube/go-snark-study/fields"
-	"github.com/arnaucube/go-snark-study/r1csqap"
+	"github.com/117503445/go-snark-study/bn128"
+	"github.com/117503445/go-snark-study/circuitcompiler"
+	"github.com/117503445/go-snark-study/fields"
+	"github.com/117503445/go-snark-study/r1csqap"
 )
 
 type Pk struct { // Proving Key pk:=(pkA, pkB, pkC, pkH)

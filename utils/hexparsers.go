@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"math/big"
 
-	snark "github.com/arnaucube/go-snark-study"
-	"github.com/arnaucube/go-snark-study/circuitcompiler"
-	"github.com/arnaucube/go-snark-study/groth16"
+	snark "github.com/117503445/go-snark-study"
+	"github.com/117503445/go-snark-study/circuitcompiler"
+	"github.com/117503445/go-snark-study/groth16"
 )
 
 // []*big.Int

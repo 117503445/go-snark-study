@@ -3,7 +3,7 @@ Implementation of the zkSNARK [Pinocchio protocol](https://eprint.iacr.org/2013/
 
 If you want to generate proofs & verify them from Go, you can try https://github.com/vocdoni/go-snark, which is implemented using the [bn256](https://github.com/ethereum/go-ethereum/tree/master/crypto/bn256/cloudflare) for the Pairing curve operations for the Groth16 zkSNARK, and it is compatible with [circom](https://github.com/iden3/circom).
 
-# go-snark-study [![Go Report Card](https://goreportcard.com/badge/github.com/arnaucube/go-snark-study)](https://goreportcard.com/report/github.com/arnaucube/go-snark-study) [![GoDoc](https://godoc.org/github.com/arnaucube/go-snark-study?status.svg)](https://godoc.org/github.com/arnaucube/go-snark-study)
+# go-snark-study [![Go Report Card](https://goreportcard.com/badge/github.com/117503445/go-snark-study)](https://goreportcard.com/report/github.com/117503445/go-snark-study) [![GoDoc](https://godoc.org/github.com/117503445/go-snark-study?status.svg)](https://godoc.org/github.com/117503445/go-snark-study)
 
 zkSNARK library implementation in Go
 
@@ -34,15 +34,15 @@ Minimal complete flow implementation:
 - [x] verify proofs with BN128 pairing
 
 ## WASM usage
-Experimentation with go-snark-study compiled to wasm: https://github.com/arnaucube/go-snark-study/tree/master/wasm
+Experimentation with go-snark-study compiled to wasm: https://github.com/117503445/go-snark-study/tree/master/wasm
 
 ## Usage
-- [![GoDoc](https://godoc.org/github.com/arnaucube/go-snark-study?status.svg)](https://godoc.org/github.com/arnaucube/go-snark-study) zkSnark
-- [![GoDoc](https://godoc.org/github.com/arnaucube/go-snark-study/groth16?status.svg)](https://godoc.org/github.com/arnaucube/go-snark-study/groth16) zkSnark Groth16
-- [![GoDoc](https://godoc.org/github.com/arnaucube/go-snark-study/bn128?status.svg)](https://godoc.org/github.com/arnaucube/go-snark-study/bn128) bn128 (more details: https://github.com/arnaucube/go-snark-study/tree/master/bn128)
-- [![GoDoc](https://godoc.org/github.com/arnaucube/go-snark-study/fields?status.svg)](https://godoc.org/github.com/arnaucube/go-snark-study/fields) Finite Fields operations
-- [![GoDoc](https://godoc.org/github.com/arnaucube/go-snark-study/r1csqap?status.svg)](https://godoc.org/github.com/arnaucube/go-snark-study/r1csqap) R1CS to QAP (more details: https://github.com/arnaucube/go-snark-study/tree/master/r1csqap)
-- [![GoDoc](https://godoc.org/github.com/arnaucube/go-snark-study/circuitcompiler?status.svg)](https://godoc.org/github.com/arnaucube/go-snark-study/circuitcompiler) Circuit Compiler
+- [![GoDoc](https://godoc.org/github.com/117503445/go-snark-study?status.svg)](https://godoc.org/github.com/117503445/go-snark-study) zkSnark
+- [![GoDoc](https://godoc.org/github.com/117503445/go-snark-study/groth16?status.svg)](https://godoc.org/github.com/117503445/go-snark-study/groth16) zkSnark Groth16
+- [![GoDoc](https://godoc.org/github.com/117503445/go-snark-study/bn128?status.svg)](https://godoc.org/github.com/117503445/go-snark-study/bn128) bn128 (more details: https://github.com/117503445/go-snark-study/tree/master/bn128)
+- [![GoDoc](https://godoc.org/github.com/117503445/go-snark-study/fields?status.svg)](https://godoc.org/github.com/117503445/go-snark-study/fields) Finite Fields operations
+- [![GoDoc](https://godoc.org/github.com/117503445/go-snark-study/r1csqap?status.svg)](https://godoc.org/github.com/117503445/go-snark-study/r1csqap) R1CS to QAP (more details: https://github.com/117503445/go-snark-study/tree/master/r1csqap)
+- [![GoDoc](https://godoc.org/github.com/117503445/go-snark-study/circuitcompiler?status.svg)](https://godoc.org/github.com/117503445/go-snark-study/circuitcompiler) Circuit Compiler
 
 ### CLI usage
 *The cli still needs some improvements, such as seting input files, etc.*
@@ -217,7 +217,7 @@ go test ./... -v
 ```
 
 ## vim/nvim circuit syntax highlighter
-For more details and installation instructions see https://github.com/arnaucube/go-snark-study/tree/master/vim-syntax
+For more details and installation instructions see https://github.com/117503445/go-snark-study/tree/master/vim-syntax
 
 ---
 

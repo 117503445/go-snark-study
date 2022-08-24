@@ -5,7 +5,7 @@ import (
 	"math/big"
 	"strconv"
 
-	"github.com/arnaucube/go-snark-study/r1csqap"
+	"github.com/117503445/go-snark-study/r1csqap"
 )
 
 // Circuit is the data structure of the compiled circuit
